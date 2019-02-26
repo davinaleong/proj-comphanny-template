@@ -1,8 +1,100 @@
-/*Example code:
+/* Montserrat - Headings */
 @font-face{
   font-family: "Montserrat";
-  font-weight: 100;
+  font-weight: 200;
   font-style: normal;
-  src: url("./../fonts/montserrat/Montserrat-Thin.ttf"), format("truetype");
+  src: url("./../fonts/montserrat/montserrat-extralight.ttf"), format("truetype");
 }
-*/
+
+@font-face{
+  font-family: "Montserrat";
+  font-weight: 200;
+  font-style: italic;
+  src: url("./../fonts/montserrat/montserrat-extralight-italic.ttf"), format("truetype");
+}
+
+@font-face{
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-style: normal;
+  src: url("./../fonts/montserrat/montserrat-regular.ttf"), format("truetype");
+}
+
+@font-face{
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-style: italic;
+  src: url("./../fonts/montserrat/montserrat-italic.ttf"), format("truetype");
+}
+
+@font-face{
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-style: normal;
+  src: url("./../fonts/montserrat/montserrat-bold.ttf"), format("truetype");
+}
+
+@font-face{
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-style: italic;
+  src: url("./../fonts/montserrat/montserrat-bold-italic.ttf"), format("truetype");
+}
+
+/* Open Sans - Body */
+@font-face{
+  font-family: "Open Sans";
+  font-weight: 300;
+  font-style: normal;
+  src: url("./../fonts/opensans/opensans-light.ttf"), format("truetype");
+}
+
+@font-face{
+  font-family: "Open Sans";
+  font-weight: 300;
+  font-style: italic;
+  src: url("./../fonts/opensans/opensans-light-italic.ttf"), format("truetype");
+}
+
+@font-face{
+  font-family: "Open Sans";
+  font-weight: 300;
+  font-style: normal;
+  src: url("./../fonts/opensans/opensans-light.ttf"), format("truetype");
+}
+
+@font-face{
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-style: italic;
+  src: url("./../fonts/opensans/opensans-regular.ttf"), format("truetype");
+}
+
+@font-face{
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-style: normal;
+  src: url("./../fonts/opensans/opensans-italic.ttf"), format("truetype");
+}
+
+@font-face{
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-style: italic;
+  src: url("./../fonts/opensans/opensans-bold-italic.ttf"), format("truetype");
+}
+
+/* Inconsolata - Code */
+@font-face{
+  font-family: "Inconsolata";
+  font-weight: 400;
+  font-style: normal;
+  src: url("./../fonts/inconsolata/inconsolata-regular.ttf"), format("truetype");
+}
+
+@font-face{
+  font-family: "Inconsolata";
+  font-weight: 700;
+  font-style: normal;
+  src: url("./../fonts/inconsolata/inconsolata-bold.ttf"), format("truetype");
+}
