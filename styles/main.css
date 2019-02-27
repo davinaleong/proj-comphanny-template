@@ -33,6 +33,25 @@ h2, .h2 {
   font-size: 2.2rem;
 }
 
+h3, .h3 {
+  font-size: 1.8rem;
+}
+
+h4, .h4 {
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+h5, .h5 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+h6, .h6 {
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
 p, .p {
   line-height: 1.5;
   margin-bottom: var(--spacing);
