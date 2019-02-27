@@ -1,16 +1,16 @@
 /* Montserrat - Headings */
 @font-face{
   font-family: "Montserrat";
-  font-weight: 200;
+  font-weight: 300;
   font-style: normal;
-  src: url("./../fonts/montserrat/montserrat-extralight.ttf"), format("truetype");
+  src: url("./../fonts/montserrat/montserrat-light.ttf"), format("truetype");
 }
 
 @font-face{
   font-family: "Montserrat";
-  font-weight: 200;
+  font-weight: 300;
   font-style: italic;
-  src: url("./../fonts/montserrat/montserrat-extralight-italic.ttf"), format("truetype");
+  src: url("./../fonts/montserrat/montserrat-light-italic.ttf"), format("truetype");
 }
 
 @font-face{
