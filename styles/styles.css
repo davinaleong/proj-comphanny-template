@@ -1,8 +1,9 @@
 @import './reset.css';
 
 @import './fonts.css';
-@import './variables.css';
+@import './root.css';
 
-@import './main.css';
+@import './blocks.css';
 @import './color.css';
 @import './type.css';
+@import './loose.css';

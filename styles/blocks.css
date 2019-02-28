@@ -1,13 +1,3 @@
-html, body {
-  box-sizing: border-box;
-  font-size: var(--font-size);
-  font-family: var(--font-family-body);
-  line-height: normal;
-  padding: 0;
-  margin: 0;
-}
-
-/* B. Blocks & Containers */
 section, .section {
   height: 100vh;
 }
@@ -64,33 +54,4 @@ section, .section {
   box-shadow:
     inset 0px 11px 12px -10px var(--col-gray-300),
     inset 0px -11px 12px -10px var(--col-gray-300);
-}
-
-
-/* C. Loose Elements */
-hr {
-  border-top: thin solid var(--col-primary-light);
-  width: 30vw;
-}
-
-.btn-top {
-  display: block;
-  padding: var(--spacing);
-  color: var(--col-white);
-  background-color: var(--col-secondary);
-  width: 20px;
-  height: 20px;
-  align-items: center;
-  display: flex;
-  justify-content: center;
-
-  position: fixed;
-  right: 16px;
-  bottom: 16px;
-  box-shadow: 2px 2px var(--col-gray-500);
-}
-
-.btn-top:hover {
-  color: var(--col-white);
-  background-color: var(--col-secondary-dark);
 }
