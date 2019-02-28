@@ -45,11 +45,25 @@ section, .section {
   background: var(--col-white) url('./../images/bg-landing.png') center center no-repeat;
   border-radius: 60% 80% 0 0;
   height: 100%;
-  box-shadow: var(--box-shadow);
+  box-shadow:
+    var(--box-shadow),
+    inset 0px -11px 12px -10px var(--col-gray-400);
 }
 
 .page-section {
   padding: var(--spacing) 0;
+}
+
+.page-section:nth-child(even) {
+  background-color: var(--col-white);
+  box-shadow: none;
+}
+
+.page-section:nth-child(odd) {
+  background-color: var(--col-gray-100);
+  box-shadow:
+    inset 0px 11px 12px -10px var(--col-gray-300),
+    inset 0px -11px 12px -10px var(--col-gray-300);
 }
 
 
