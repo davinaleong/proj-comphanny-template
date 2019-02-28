@@ -11,9 +11,17 @@ section, .section {
 }
 
 .flex-center {
-  align-items: center;
   display: flex;
+  align-items: center;
   justify-content: center;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+  flex: 1;
 }
 
 .container {
@@ -28,7 +36,7 @@ section, .section {
   background-color: var(--col-primary);
   border-radius: 30% 40% 0 0;
   height: 100%;
-  box-shadow: var(--box-shadow);
+  box-shadow: var(--box-shadow-inset);
 }
 
 .landing > div > div {
@@ -36,7 +44,7 @@ section, .section {
   border-radius: 60% 80% 0 0;
   height: 100%;
   box-shadow:
-    var(--box-shadow),
+    var(--box-shadow-inset),
     inset 0px -11px 12px -10px var(--col-gray-400);
 }
 
@@ -54,4 +62,29 @@ section, .section {
   box-shadow:
     inset 0px 11px 12px -10px var(--col-gray-300),
     inset 0px -11px 12px -10px var(--col-gray-300);
+}
+
+.display-block {
+  display: block;
+}
+
+.card {
+  margin: 0.5rem;
+  background-color: var(--col-white);
+  border-radius: 0.2rem;
+  box-shadow: var(--box-shadow);
+}
+
+.card-body {
+  border-radius: 0.2rem 0.2rem 0 0;
+  padding: 0.5rem;
+}
+
+.card-header {
+  border-radius: 0 0 0.2rem 0.2rem;
+  padding: 0.5rem;
+}
+
+.card-title {
+  margin-bottom: 0;
 }

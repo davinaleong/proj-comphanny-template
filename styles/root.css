@@ -34,7 +34,8 @@
 
   --spacing: 1rem;
 
-  --box-shadow: inset 0px 11px 12px -10px var(--col-black);
+  --box-shadow: 2px 2px var(--col-gray-500);
+  --box-shadow-inset: inset 0px 11px 12px -10px var(--col-black);
 }
 
 html, body {
