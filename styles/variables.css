@@ -33,4 +33,6 @@
   --font-family-code: var(--font-inconsolata), 'Consolas', 'Menlo', 'Courier New', 'Courier', monospace;
 
   --spacing: 1rem;
+
+  --box-shadow: inset 0px 11px 12px -10px var(--col-black);
 }

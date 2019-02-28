@@ -26,23 +26,30 @@ section, .section {
   justify-content: center;
 }
 
+.container {
+  margin: 0 15%;
+}
+
 .landing {
   background-color: var(--col-primary-dark);
 }
 
 .landing > div {
-  padding-top: 16px;
   background-color: var(--col-primary);
   border-radius: 30% 40% 0 0;
   height: 100%;
-  box-shadow: inset 0px 11px 12px -10px var(--col-black);
+  box-shadow: var(--box-shadow);
 }
 
 .landing > div > div {
   background: var(--col-white) url('./../images/bg-landing.png') center center no-repeat;
   border-radius: 60% 80% 0 0;
   height: 100%;
-  box-shadow: inset 0px 11px 12px -10px var(--col-black);
+  box-shadow: var(--box-shadow);
+}
+
+.page-section {
+  padding: var(--spacing) 0;
 }
 
 

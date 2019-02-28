@@ -93,3 +93,7 @@
 .border-secondary-dark {
   border-color: var(--col-secondary-dark);
 }
+
+.bg-gray {
+  background-color: var(--col-gray-100);
+}
