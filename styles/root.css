@@ -13,14 +13,14 @@
   --col-gray-900: #212121;
 
   --col-indigo: #3f51b5;
-  --col-primary: var(--col-primary);
+  --col-primary: var(--col-indigo);
   --col-primary-light: #9fa8da;
   --col-primary-dark: #283593;
 
-  --col-amber: #ffc107;
-  --col-secondary: var(--col-amber);
-  --col-secondary-light: #ffe082;
-  --col-secondary-dark: #ff8f00;
+  --col-orange: #ff9800;
+  --col-secondary: var(--col-orange);
+  --col-secondary-light: #ffcc80;
+  --col-secondary-dark: #ef6c00;
 
   --font-size: 16px;
 
@@ -33,4 +33,16 @@
   --font-family-code: var(--font-inconsolata), 'Consolas', 'Menlo', 'Courier New', 'Courier', monospace;
 
   --spacing: 1rem;
+
+  --box-shadow: 2px 2px var(--col-gray-500);
+  --box-shadow-inset: inset 0px 11px 12px -10px var(--col-black);
+}
+
+html, body {
+  box-sizing: border-box;
+  font-size: var(--font-size);
+  font-family: var(--font-family-body);
+  line-height: normal;
+  padding: 0;
+  margin: 0;
 }

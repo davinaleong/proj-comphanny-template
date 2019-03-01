@@ -1,0 +1,26 @@
+hr {
+  border-top: thin solid var(--col-primary-light);
+  width: 30vw;
+}
+
+.btn-top {
+  display: block;
+  padding: var(--spacing);
+  color: var(--col-white);
+  background-color: var(--col-secondary);
+  width: 20px;
+  height: 20px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  box-shadow: var(--box-shadow);
+}
+
+.btn-top:hover {
+  color: var(--col-white);
+  background-color: var(--col-secondary-dark);
+}
