@@ -1,4 +1,4 @@
-// Comphany styles here
+/// A: Colors
 $cphy-primary: map-get($theme-colors, "cphy-primary");
 $cphy-primary-light: lighten($cphy-primary, 30%);
 $cphy-primary-dark: darken($cphy-primary, 30%);
@@ -17,22 +17,6 @@ $cphy-colors: (
   "cphy-secondary-dark":  $cphy-primary-dark
 );
 
-.text-bold {
-  font-weight: 700;
-}
-
-.text-italic {
-  font-style: italic;
-}
-
-.fab {
-  position: fixed;
-  right: 16px;
-  bottom: 16px;
-  color: $light;
-  box-shadow: 2px 2px $gray-800;
-}
-
 // Generate bg- and text- classes for theme colors
 @each $color-key, $color-value in $cphy-colors {
   .text-#{$color-key} {
@@ -42,4 +26,46 @@ $cphy-colors: (
   .bg-#{$color-key} {
     background-color: $color-value;
   }
+}
+
+
+/// B: Typography
+.text-bold {
+  font-weight: 700;
+}
+
+.text-italic {
+  font-style: italic;
+}
+
+
+/// C. Containers & Blocks
+section:not(:first-child), .section:not(:first-child) {
+  height: 100vh;
+}
+
+section.landing {
+  background-color: map-get($cphy-colors, "cphy-primary");
+  border-bottom: 1px solid map-get($cphy-colors, "cphy-primary");
+}
+
+.landing-inner {
+  background-color: map-get($cphy-colors, "cphy-primary-light");
+  border-radius: 20% 0 50% 0;
+}
+
+.landing-content-container {
+  background-color: $white;
+  border-radius: 20% 0 80% 0;
+  height: 80vh;
+}
+
+
+/// Z. Loose Elements
+.fab {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  color: $light;
+  box-shadow: 2px 2px $gray-800;
 }
