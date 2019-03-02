@@ -5,7 +5,7 @@ $cphy-primary-dark: darken($cphy-primary, 30%);
 
 $cphy-secondary: map-get($theme-colors, "cphy-secondary");
 $cphy-secondary-light: lighten($cphy-secondary, 30%);
-$cphy-secondary-dark: darken($cphy-secondary, 30%);
+$cphy-secondary-dark: darken($cphy-secondary, 10%);
 
 $cphy-colors: (
   "cphy-primary":       $cphy-primary,
@@ -38,28 +38,50 @@ $cphy-colors: (
   font-style: italic;
 }
 
-
-/// C. Containers & Blocks
-section:not(:first-child), .section:not(:first-child) {
-  height: 100vh;
+.section-heading {
+  color: $dark;
+  border-bottom: 3px solid $cphy-primary;
 }
 
+.section-heading-light {
+  color: $light;
+  border-bottom: 3px solid $cphy-primary-light;
+}
+
+
+/// C. Containers & Blocks
+// section:not(:first-child), .section:not(:first-child) {
+//   min-height: 100vh;
+// }
+
 section.landing {
-  background-color: map-get($cphy-colors, "cphy-primary");
-  border-bottom: 1px solid map-get($cphy-colors, "cphy-primary");
+  background-color: $cphy-primary;
 }
 
 .landing-inner {
-  background-color: map-get($cphy-colors, "cphy-primary-light");
-  border-radius: 20% 0 50% 0;
+  background-color: $cphy-primary-light;
+  border-radius: 20% 5% 20% 0;
 }
 
 .landing-content-container {
   background-color: $white;
-  border-radius: 20% 0 80% 0;
+  border-radius: 20% 5% 40% 0;
   height: 80vh;
 }
 
+.products {
+  background-color: $cphy-primary;
+  border-radius: 30% 0 10% 0;
+}
+
+.phamily {
+  background-color: $cphy-primary;
+}
+
+.phamily-inner {
+  background-color: $white;
+  border-radius: 10% 0 0 0;
+}
 
 /// Z. Loose Elements
 .fab {
