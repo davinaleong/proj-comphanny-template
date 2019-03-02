@@ -10977,19 +10977,19 @@ a.text-cphy-secondary:hover, a.text-cphy-secondary:focus {
 }
 
 .text-cphy-primary-xlight {
-  color: #e4e7f6;
+  color: #d1d6ef;
 }
 
 .bg-cphy-primary-xlight {
-  background-color: #e4e7f6;
+  background-color: #d1d6ef;
 }
 
 .text-cphy-primary-light {
-  color: #abb4e2;
+  color: #8591d5;
 }
 
 .bg-cphy-primary-light {
-  background-color: #abb4e2;
+  background-color: #8591d5;
 }
 
 .text-cphy-primary-dark {
@@ -11024,6 +11024,20 @@ a.text-cphy-secondary:hover, a.text-cphy-secondary:focus {
   background-color: #cc7a00;
 }
 
+.badge-cphy-secondary {
+  color: #343a40;
+}
+
+.badge-cphy-primary-light {
+  color: #fff;
+  background-color: #8591d5;
+}
+
+.badge-cphy-primary-xlight {
+  color: #343a40;
+  background-color: #d1d6ef;
+}
+
 .text-bold {
   font-weight: 700;
 }
@@ -11039,7 +11053,7 @@ a.text-cphy-secondary:hover, a.text-cphy-secondary:focus {
 
 .section-heading-light {
   color: #f8f9fa;
-  border-bottom: 3px solid #abb4e2;
+  border-bottom: 3px solid #8591d5;
 }
 
 section.landing {
@@ -11047,7 +11061,7 @@ section.landing {
 }
 
 .landing-inner {
-  background-color: #abb4e2;
+  background-color: #8591d5;
   border-radius: 20% 5% 20% 0;
 }
 
@@ -11073,7 +11087,7 @@ section.landing {
 }
 
 .blockquote-primary {
-  background: #abb4e2;
+  background: #8591d5;
   border-left: 6px solid #3f51b5;
   padding: 1rem;
 }
