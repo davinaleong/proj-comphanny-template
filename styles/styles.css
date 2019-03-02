@@ -10815,6 +10815,14 @@ a.text-cphy-secondary:hover, a.text-cphy-secondary:focus {
   background-color: #3f51b5;
 }
 
+.text-cphy-primary-xlight {
+  color: #e4e7f6;
+}
+
+.bg-cphy-primary-xlight {
+  background-color: #e4e7f6;
+}
+
 .text-cphy-primary-light {
   color: #abb4e2;
 }

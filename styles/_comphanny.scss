@@ -1,6 +1,7 @@
 /// A: Colors
 $cphy-primary: map-get($theme-colors, "cphy-primary");
 $cphy-primary-light: lighten($cphy-primary, 30%);
+$cphy-primary-xlight: lighten($cphy-primary, 45%);
 $cphy-primary-dark: darken($cphy-primary, 30%);
 
 $cphy-secondary: map-get($theme-colors, "cphy-secondary");
@@ -9,6 +10,7 @@ $cphy-secondary-dark: darken($cphy-secondary, 10%);
 
 $cphy-colors: (
   "cphy-primary":       $cphy-primary,
+  "cphy-primary-xlight": $cphy-primary-xlight,
   "cphy-primary-light": $cphy-primary-light,
   "cphy-primary-dark":  $cphy-primary-dark,
 
