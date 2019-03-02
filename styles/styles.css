@@ -10832,27 +10832,27 @@ a.text-cphy-secondary:hover, a.text-cphy-secondary:focus {
 }
 
 .text-cphy-secondary {
-  color: #3f51b5;
+  color: #ff9800;
 }
 
 .bg-cphy-secondary {
-  background-color: #3f51b5;
+  background-color: #ff9800;
 }
 
 .text-cphy-secondary-light {
-  color: #abb4e2;
+  color: #ffd699;
 }
 
 .bg-cphy-secondary-light {
-  background-color: #abb4e2;
+  background-color: #ffd699;
 }
 
 .text-cphy-secondary-dark {
-  color: #171e44;
+  color: #cc7a00;
 }
 
 .bg-cphy-secondary-dark {
-  background-color: #171e44;
+  background-color: #cc7a00;
 }
 
 .text-bold {
@@ -10890,16 +10890,10 @@ section.landing {
 
 .products {
   background-color: #3f51b5;
-  border-radius: 30% 0 10% 0;
 }
 
 .phamily {
-  background-color: #3f51b5;
-}
-
-.phamily-inner {
   background-color: #fff;
-  border-radius: 10% 0 0 0;
 }
 
 .fab {
@@ -10907,7 +10901,5 @@ section.landing {
   right: 16px;
   bottom: 16px;
   color: #f8f9fa;
-  -webkit-box-shadow: 2px 2px #343a40;
-          box-shadow: 2px 2px #343a40;
 }
 /*# sourceMappingURL=styles.css.map */
