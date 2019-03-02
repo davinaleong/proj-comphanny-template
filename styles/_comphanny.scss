@@ -1,20 +1,22 @@
 /// A: Colors
 $cphy-primary: map-get($theme-colors, "cphy-primary");
 $cphy-primary-light: lighten($cphy-primary, 30%);
+$cphy-primary-xlight: lighten($cphy-primary, 45%);
 $cphy-primary-dark: darken($cphy-primary, 30%);
 
 $cphy-secondary: map-get($theme-colors, "cphy-secondary");
 $cphy-secondary-light: lighten($cphy-secondary, 30%);
-$cphy-secondary-dark: darken($cphy-secondary, 30%);
+$cphy-secondary-dark: darken($cphy-secondary, 10%);
 
 $cphy-colors: (
   "cphy-primary":       $cphy-primary,
+  "cphy-primary-xlight": $cphy-primary-xlight,
   "cphy-primary-light": $cphy-primary-light,
   "cphy-primary-dark":  $cphy-primary-dark,
 
-  "cphy-secondary":       $cphy-primary,
-  "cphy-secondary-light": $cphy-primary-light,
-  "cphy-secondary-dark":  $cphy-primary-dark
+  "cphy-secondary":       $cphy-secondary,
+  "cphy-secondary-light": $cphy-secondary-light,
+  "cphy-secondary-dark":  $cphy-secondary-dark
 );
 
 // Generate bg- and text- classes for theme colors
@@ -38,28 +40,44 @@ $cphy-colors: (
   font-style: italic;
 }
 
-
-/// C. Containers & Blocks
-section:not(:first-child), .section:not(:first-child) {
-  height: 100vh;
+.section-heading {
+  color: $dark;
+  border-bottom: 3px solid $cphy-primary;
 }
 
+.section-heading-light {
+  color: $light;
+  border-bottom: 3px solid $cphy-primary-light;
+}
+
+
+/// C. Containers & Blocks
+// section:not(:first-child), .section:not(:first-child) {
+//   min-height: 100vh;
+// }
+
 section.landing {
-  background-color: map-get($cphy-colors, "cphy-primary");
-  border-bottom: 1px solid map-get($cphy-colors, "cphy-primary");
+  background-color: $cphy-primary;
 }
 
 .landing-inner {
-  background-color: map-get($cphy-colors, "cphy-primary-light");
-  border-radius: 20% 0 50% 0;
+  background-color: $cphy-primary-light;
+  border-radius: 20% 5% 20% 0;
 }
 
 .landing-content-container {
   background-color: $white;
-  border-radius: 20% 0 80% 0;
+  border-radius: 20% 5% 40% 0;
   height: 80vh;
 }
 
+.products {
+  background-color: $cphy-primary;
+}
+
+.phamily {
+  background-color: $white;
+}
 
 /// Z. Loose Elements
 .fab {
@@ -67,5 +85,4 @@ section.landing {
   right: 16px;
   bottom: 16px;
   color: $light;
-  box-shadow: 2px 2px $gray-800;
 }
