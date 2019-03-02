@@ -86,3 +86,33 @@ section.landing {
   bottom: 16px;
   color: $light;
 }
+
+.blockquote-primary {
+  background: $cphy-primary-light;
+  border-left: 6px solid $cphy-primary;
+  padding: map-get($spacers, 3);
+}
+
+.blockquote-primary > .blockquote-heading {
+  color: $cphy-primary;
+}
+
+.blockquote-secondary {
+  background: $cphy-secondary-light;
+  border-left: 6px solid $cphy-secondary;
+  padding: map-get($spacers, 3);
+}
+
+.blockquote-secondary > .blockquote-heading {
+  color: $cphy-secondary;
+}
+
+.blockquote-gray {
+  background: $gray-300;
+  border-left: 6px solid $gray-600;
+  padding: map-get($spacers, 3);
+}
+
+.blockquote-gray > .blockquote-heading {
+  color: $gray-600;
+}

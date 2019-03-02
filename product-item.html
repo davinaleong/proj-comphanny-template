@@ -46,20 +46,26 @@
       <ol class="breadcrumb bg-cphy-primary-xlight">
         <li class="breadcrumb-item"><a href="./product.html">Products</a></li>
         <li class="breadcrumb-item"><a href="./product-list.html">Websites</a></li>
-        <li class="breadcrumb-item active" aria-current="page">Featured Website</li>
+        <li class="breadcrumb-item active" aria-current="page">Website</li>
       </ol>
     </nav>
 
     <section class="container my-5">
       <div class="mb-5 d-flex justify-content-center align-items-center">
-        <h2 class="section-heading">Featured Website</h2>
+        <div class="text-center">
+          <h2 class="section-heading"><i class="fas fa-globe"></i> Website</h2>
+        </div>
       </div>
+      <span class="badge badge-cphy-primary"><i class="fal fa-globe"></i> Website</span>
 
-      <img class="img-fluid mb-2" src="./images/bg-landing.png" alt="product image">
+      <!-- Content Templates -->
+      <!-- Banner -->
+      <img class="img-fluid shadow-sm mb-3" src="./images/bg-landing.png" alt="product image">
 
-      <div class="card mb-2">
-        <div class="card-header">Tech Stack</div>
+      <!-- Tech Stack -->
+      <div class="card border-0 bg-light-gray shadow-sm mb-3">
         <div class="card-body">
+          <h5 class="card-title">Tech Stack</h5>
           <ul>
             <li>Item one</li>
             <li>Item two</li>
@@ -68,11 +74,41 @@
         </div>
       </div>
 
-      <blockquote class="blockquote mb-2">
+      <!-- Blockquote -->
+      <blockquote class="blockquote blockquote-gray shadow-sm mb-3">
+        <h5 class="blockquote-heading">Blockquote</h5>
         <p>Awesome website!</p>
+        <p class="blockquote-footer">2019</p>
       </blockquote>
 
-      <p class="mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda porro voluptatum natus expedita vitae nisi cum? Fugit eius nam tempora fuga error harum animi at. Pariatur sit non adipisci tenetur?</p>
+      <!-- Customizable HTML Content -->
+      <div class="mb-3">
+        <h5>Customizable HTML Content</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda porro voluptatum natus expedita vitae nisi cum? Fugit eius nam tempora fuga error harum animi at. Pariatur sit non adipisci tenetur?</p>
+      </div>
+
+      <!-- Card -->
+      <div class="card bg-light border-light-gray shadow-sm mb-3">
+        <div class="card-body">
+          <h5 class="card-title">Card</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+
+      <!-- Image Card -->
+      <div class="card bg-light border-light-gray shadow-sm mb-3">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="./images/bg-landing.png" class="card-img" alt="Placeholder">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Image Card</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   </main>
 

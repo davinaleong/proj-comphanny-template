@@ -26,6 +26,7 @@
   --danger: #dc3545;
   --light: #f8f9fa;
   --dark: #343a40;
+  --light-gray: #e9ecef;
   --gray: #adb5bd;
   --cphy-primary: #3f51b5;
   --cphy-secondary: #ff9800;
@@ -1893,6 +1894,28 @@ pre code {
   background-color: #b9bbbe;
 }
 
+.table-light-gray,
+.table-light-gray > th,
+.table-light-gray > td {
+  background-color: #f9fafb;
+}
+
+.table-light-gray th,
+.table-light-gray td,
+.table-light-gray thead th,
+.table-light-gray tbody + tbody {
+  border-color: #f4f5f7;
+}
+
+.table-hover .table-light-gray:hover {
+  background-color: #eaedf1;
+}
+
+.table-hover .table-light-gray:hover > td,
+.table-hover .table-light-gray:hover > th {
+  background-color: #eaedf1;
+}
+
 .table-gray,
 .table-gray > th,
 .table-gray > td {
@@ -2951,6 +2974,42 @@ fieldset:disabled a.btn {
           box-shadow: 0 0 0 0.2rem rgba(82, 88, 93, 0.5);
 }
 
+.btn-light-gray {
+  color: #212529;
+  background-color: #e9ecef;
+  border-color: #e9ecef;
+}
+
+.btn-light-gray:hover {
+  color: #212529;
+  background-color: #d3d9df;
+  border-color: #cbd3da;
+}
+
+.btn-light-gray:focus, .btn-light-gray.focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(203, 206, 209, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(203, 206, 209, 0.5);
+}
+
+.btn-light-gray.disabled, .btn-light-gray:disabled {
+  color: #212529;
+  background-color: #e9ecef;
+  border-color: #e9ecef;
+}
+
+.btn-light-gray:not(:disabled):not(.disabled):active, .btn-light-gray:not(:disabled):not(.disabled).active,
+.show > .btn-light-gray.dropdown-toggle {
+  color: #212529;
+  background-color: #cbd3da;
+  border-color: #c4ccd4;
+}
+
+.btn-light-gray:not(:disabled):not(.disabled):active:focus, .btn-light-gray:not(:disabled):not(.disabled).active:focus,
+.show > .btn-light-gray.dropdown-toggle:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(203, 206, 209, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(203, 206, 209, 0.5);
+}
+
 .btn-gray {
   color: #212529;
   background-color: #adb5bd;
@@ -3329,6 +3388,40 @@ fieldset:disabled a.btn {
 .show > .btn-outline-dark.dropdown-toggle:focus {
   -webkit-box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
           box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
+}
+
+.btn-outline-light-gray {
+  color: #e9ecef;
+  border-color: #e9ecef;
+}
+
+.btn-outline-light-gray:hover {
+  color: #212529;
+  background-color: #e9ecef;
+  border-color: #e9ecef;
+}
+
+.btn-outline-light-gray:focus, .btn-outline-light-gray.focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(233, 236, 239, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(233, 236, 239, 0.5);
+}
+
+.btn-outline-light-gray.disabled, .btn-outline-light-gray:disabled {
+  color: #e9ecef;
+  background-color: transparent;
+}
+
+.btn-outline-light-gray:not(:disabled):not(.disabled):active, .btn-outline-light-gray:not(:disabled):not(.disabled).active,
+.show > .btn-outline-light-gray.dropdown-toggle {
+  color: #212529;
+  background-color: #e9ecef;
+  border-color: #e9ecef;
+}
+
+.btn-outline-light-gray:not(:disabled):not(.disabled):active:focus, .btn-outline-light-gray:not(:disabled):not(.disabled).active:focus,
+.show > .btn-outline-light-gray.dropdown-toggle:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(233, 236, 239, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(233, 236, 239, 0.5);
 }
 
 .btn-outline-gray {
@@ -5505,6 +5598,22 @@ a.badge-dark:focus, a.badge-dark.focus {
           box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
 }
 
+.badge-light-gray {
+  color: #212529;
+  background-color: #e9ecef;
+}
+
+a.badge-light-gray:hover, a.badge-light-gray:focus {
+  color: #212529;
+  background-color: #cbd3da;
+}
+
+a.badge-light-gray:focus, a.badge-light-gray.focus {
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(233, 236, 239, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(233, 236, 239, 0.5);
+}
+
 .badge-gray {
   color: #212529;
   background-color: #adb5bd;
@@ -5707,6 +5816,20 @@ a.badge-cphy-secondary:focus, a.badge-cphy-secondary.focus {
 
 .alert-dark .alert-link {
   color: #040505;
+}
+
+.alert-light-gray {
+  color: #797b7c;
+  background-color: #fbfbfc;
+  border-color: #f9fafb;
+}
+
+.alert-light-gray hr {
+  border-top-color: #eaedf1;
+}
+
+.alert-light-gray .alert-link {
+  color: #606162;
 }
 
 .alert-gray {
@@ -6117,6 +6240,22 @@ a.badge-cphy-secondary:focus, a.badge-cphy-secondary.focus {
   color: #fff;
   background-color: #1b1e21;
   border-color: #1b1e21;
+}
+
+.list-group-item-light-gray {
+  color: #797b7c;
+  background-color: #f9fafb;
+}
+
+.list-group-item-light-gray.list-group-item-action:hover, .list-group-item-light-gray.list-group-item-action:focus {
+  color: #797b7c;
+  background-color: #eaedf1;
+}
+
+.list-group-item-light-gray.list-group-item-action.active {
+  color: #fff;
+  background-color: #797b7c;
+  border-color: #797b7c;
 }
 
 .list-group-item-gray {
@@ -7144,6 +7283,16 @@ button.bg-dark:focus {
   background-color: #1d2124 !important;
 }
 
+.bg-light-gray {
+  background-color: #e9ecef !important;
+}
+
+a.bg-light-gray:hover, a.bg-light-gray:focus,
+button.bg-light-gray:hover,
+button.bg-light-gray:focus {
+  background-color: #cbd3da !important;
+}
+
 .bg-gray {
   background-color: #adb5bd !important;
 }
@@ -7252,6 +7401,10 @@ button.bg-cphy-secondary:focus {
 
 .border-dark {
   border-color: #343a40 !important;
+}
+
+.border-light-gray {
+  border-color: #e9ecef !important;
 }
 
 .border-gray {
@@ -10658,6 +10811,14 @@ a.text-dark:hover, a.text-dark:focus {
   color: #121416 !important;
 }
 
+.text-light-gray {
+  color: #e9ecef !important;
+}
+
+a.text-light-gray:hover, a.text-light-gray:focus {
+  color: #bdc6cf !important;
+}
+
 .text-gray {
   color: #adb5bd !important;
 }
@@ -10909,5 +11070,35 @@ section.landing {
   right: 16px;
   bottom: 16px;
   color: #f8f9fa;
+}
+
+.blockquote-primary {
+  background: #abb4e2;
+  border-left: 6px solid #3f51b5;
+  padding: 1rem;
+}
+
+.blockquote-primary > .blockquote-heading {
+  color: #3f51b5;
+}
+
+.blockquote-secondary {
+  background: #ffd699;
+  border-left: 6px solid #ff9800;
+  padding: 1rem;
+}
+
+.blockquote-secondary > .blockquote-heading {
+  color: #ff9800;
+}
+
+.blockquote-gray {
+  background: #dee2e6;
+  border-left: 6px solid #6c757d;
+  padding: 1rem;
+}
+
+.blockquote-gray > .blockquote-heading {
+  color: #6c757d;
 }
 /*# sourceMappingURL=styles.css.map */
