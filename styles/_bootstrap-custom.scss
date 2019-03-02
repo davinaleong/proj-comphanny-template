@@ -3,6 +3,10 @@
 @import "../node_modules/bootstrap/scss/mixins";
 
 // customise here
+$primary: #3f51b5;
+$link-color: $primary;
+$link-hover-color: darken($link-color, 15%);
+
 $theme-colors: (
   "light-gray": $gray-200,
   "gray": $gray-500,
