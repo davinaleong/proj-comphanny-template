@@ -1,0 +1,45 @@
+// Comphany styles here
+$cphy-primary: map-get($theme-colors, "cphy-primary");
+$cphy-primary-light: lighten($cphy-primary, 30%);
+$cphy-primary-dark: darken($cphy-primary, 30%);
+
+$cphy-secondary: map-get($theme-colors, "cphy-secondary");
+$cphy-secondary-light: lighten($cphy-secondary, 30%);
+$cphy-secondary-dark: darken($cphy-secondary, 30%);
+
+$cphy-colors: (
+  "cphy-primary":       $cphy-primary,
+  "cphy-primary-light": $cphy-primary-light,
+  "cphy-primary-dark":  $cphy-primary-dark,
+
+  "cphy-secondary":       $cphy-primary,
+  "cphy-secondary-light": $cphy-primary-light,
+  "cphy-secondary-dark":  $cphy-primary-dark
+);
+
+.text-bold {
+  font-weight: 700;
+}
+
+.text-italic {
+  font-style: italic;
+}
+
+.fab {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  color: $light;
+  box-shadow: 2px 2px $gray-800;
+}
+
+// Generate bg- and text- classes for theme colors
+@each $color-key, $color-value in $cphy-colors {
+  .text-#{$color-key} {
+    color: $color-value;
+  }
+
+  .bg-#{$color-key} {
+    background-color: $color-value;
+  }
+}

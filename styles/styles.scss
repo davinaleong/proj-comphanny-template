@@ -1,18 +1,2 @@
-// Required
-@import "../node_modules/bootstrap/scss/functions";
-@import "../node_modules/bootstrap/scss/variables";
-@import "../node_modules/bootstrap/scss/mixins";
-
-// modify here
-$theme-colors: (
-  "gray": $gray-500,
-  "cphy-primary": #3f51b5,
-  "cphy-secondary": #ff9800
-);
-
-// Optional
-@import "../node_modules/bootstrap/scss/bootstrap";
-// @import "../node_modules/bootstrap/scss/type";
-// @import "../node_modules/bootstrap/scss/images";
-// @import "../node_modules/bootstrap/scss/code";
-// @import "../node_modules/bootstrap/scss/grid";
+@import './bootstrap-custom';
+@import './comphanny'

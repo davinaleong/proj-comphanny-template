@@ -12,15 +12,52 @@
   <link rel="shortcut icon" href="./images/logo/comphanny-icon-color.png" type="image/png">
 </head>
 <body id="top">
-  <main class="container-fluid">
-    <!---->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-cphy-primary">
+    <a class="navbar-brand" href="./">
+      <img src="./images/logo/comphanny-white.svg" alt="" height="30"
+        class="d-inline-block align-top">&nbsp;
+      Comphanny
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="./">
+            <i class="fa fa-home fa-fw"></i> Home <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./products.html" title="Products">
+            <i class="fas fa-box fa-fw"></i> Products
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./organisation.html" title="Organisation">
+            <i class="fas fa-sitemap fa-fw"></i> About
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <section class="landing bg-cphy-primary d-flex justify-content-center align-items-center">
+      <div class="text-center">
+        <h1 class="display-4 text-light">Comphanny</h1>
+        <p class="h1 text-italic">Phun, phamily phans</p>
+      </div>
+    </section>
   </main>
 
   <footer class="container-fluid bg-dark text-light px-3 py-3 mt-3">
     <p class="text-center"><em class="small">Comphanny 2019</small></p>
   </footer>
 
-  <a class="btn-top" href="#top"><i class="fa fa-angle-up fa-2x"></i></a>
+  <a class="btn btn-cphy-secondary fab" href="#top">
+    <i class="fa fa-angle-up fa-2x"></i>
+  </a>
 
   <script src="./vendor/jquery.min.js"></script>
   <script src="./vendor/popper.min.js"></script>
