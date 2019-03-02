@@ -1,7 +1,7 @@
 /// A: Colors
 $cphy-primary: map-get($theme-colors, "cphy-primary");
-$cphy-primary-light: lighten($cphy-primary, 30%);
-$cphy-primary-xlight: lighten($cphy-primary, 45%);
+$cphy-primary-light: lighten($cphy-primary, 20%);
+$cphy-primary-xlight: lighten($cphy-primary, 40%);
 $cphy-primary-dark: darken($cphy-primary, 30%);
 
 $cphy-secondary: map-get($theme-colors, "cphy-secondary");
@@ -30,6 +30,19 @@ $cphy-colors: (
   }
 }
 
+.badge-cphy-secondary {
+  color: $dark;
+}
+
+.badge-cphy-primary-light {
+  color: $white;
+  background-color: $cphy-primary-light;
+}
+
+.badge-cphy-primary-xlight {
+  color: $dark;
+  background-color: $cphy-primary-xlight;
+}
 
 /// B: Typography
 .text-bold {
@@ -85,4 +98,34 @@ section.landing {
   right: 16px;
   bottom: 16px;
   color: $light;
+}
+
+.blockquote-primary {
+  background: $cphy-primary-light;
+  border-left: 6px solid $cphy-primary;
+  padding: map-get($spacers, 3);
+}
+
+.blockquote-primary > .blockquote-heading {
+  color: $cphy-primary;
+}
+
+.blockquote-secondary {
+  background: $cphy-secondary-light;
+  border-left: 6px solid $cphy-secondary;
+  padding: map-get($spacers, 3);
+}
+
+.blockquote-secondary > .blockquote-heading {
+  color: $cphy-secondary;
+}
+
+.blockquote-gray {
+  background: $gray-300;
+  border-left: 6px solid $gray-600;
+  padding: map-get($spacers, 3);
+}
+
+.blockquote-gray > .blockquote-heading {
+  color: $gray-600;
 }
