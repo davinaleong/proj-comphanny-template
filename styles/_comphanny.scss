@@ -103,9 +103,9 @@ section.landing {
 }
 
 /// Z. Loose Elements
-.fab {
+.btn-floating-action {
   position: fixed;
-  right: 16px;
+  left: 16px;
   bottom: 16px;
   color: $light;
 }
@@ -142,4 +142,9 @@ section.landing {
 
 .contact {
   max-width: 800px;
+}
+
+// Hides the github bottom-right fab
+.github-fab {
+  display: hidden;
 }

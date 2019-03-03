@@ -11194,9 +11194,9 @@ section.landing {
   background-color: #fff;
 }
 
-.fab {
+.btn-floating-action {
   position: fixed;
-  right: 16px;
+  left: 16px;
   bottom: 16px;
   color: #f8f9fa;
 }
@@ -11233,5 +11233,16 @@ section.landing {
 
 .contact {
   max-width: 800px;
+}
+
+.github-fab {
+  display: hidden;
+}
+
+.github-fab {
+  display: block;
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
 }
 /*# sourceMappingURL=styles.css.map */
