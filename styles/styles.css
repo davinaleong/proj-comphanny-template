@@ -11230,4 +11230,8 @@ section.landing {
 .blockquote-gray > .blockquote-heading {
   color: #6c757d;
 }
+
+.contact {
+  max-width: 800px;
+}
 /*# sourceMappingURL=styles.css.map */
