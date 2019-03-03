@@ -2,6 +2,8 @@
 
 View template [here](https://davinaleong.github.io/proj-comphaanyy-template/)!
 
+Repo of CraftCMS project [here](https://github.com/DavinaLeong/proj-comphanny-cms.git).
+
 This is a template of a fake Company I built and designed for a CraftCMS project.
 
 Note that this project doesn't come with a pre-configured _SASS compiler_.
