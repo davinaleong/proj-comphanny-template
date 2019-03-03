@@ -1,8 +1,8 @@
-# Comphanny Template
+# Comphanny Template `v1.0.0`
 
 This is a template of a fake Company I built and designed for a CraftCMS project.
 
-Note that this project doesn't come with a pre-configured SASS compiler. I was lazy to code up a Webpack or Gulp script for it, so I just used a VS Code extension to do the job 😛 
+Note that this project doesn't come with a pre-configured SASS compiler. I was lazy to code up a Webpack or Gulp script for it, so I just used a VS Code extension to do the job 😛...
 
 ## Tech Stack
 
