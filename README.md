@@ -1,4 +1,4 @@
-# Comphanny Template `v1.0.0`
+# Comphanny Template `v1.1.0`
 
 View template [here](https://davinaleong.github.io/proj-comphaanyy-template/)!
 
