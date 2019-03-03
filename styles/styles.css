@@ -11144,8 +11144,21 @@ a.text-cphy-secondary:hover, a.text-cphy-secondary:focus {
   font-weight: 700;
 }
 
+.text-weight-normal {
+  font-weight: normal;
+}
+
 .text-italic {
   font-style: italic;
+}
+
+.text-style-normal {
+  font-style: normal;
+}
+
+.text-normal {
+  font-weight: normal;
+  font-style: normal;
 }
 
 .section-heading {

@@ -50,8 +50,21 @@ $cphy-colors: (
   font-weight: 700;
 }
 
+.text-weight-normal {
+  font-weight: normal;
+}
+
 .text-italic {
   font-style: italic;
+}
+
+.text-style-normal {
+  font-style: normal;
+}
+
+.text-normal {
+  font-weight: normal;
+  font-style: normal;
 }
 
 .section-heading {
