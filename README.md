@@ -1,4 +1,5 @@
 # Comphanny Template `v1.0.0`
+View template [here](https://davinaleong.github.io/proj-comphaanyy-template/)!
 
 This is a template of a fake Company I built and designed for a CraftCMS project.
 
