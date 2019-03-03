@@ -531,7 +531,7 @@ hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
   border: 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 1px solid #d1d6ef;
 }
 
 small,
@@ -11111,11 +11111,11 @@ a.text-cphy-secondary:hover, a.text-cphy-secondary:focus {
 }
 
 .text-cphy-secondary-light {
-  color: #ffd699;
+  color: #ffc166;
 }
 
 .bg-cphy-secondary-light {
-  background-color: #ffd699;
+  background-color: #ffc166;
 }
 
 .text-cphy-secondary-dark {
@@ -11189,7 +11189,7 @@ section.landing {
 }
 
 .blockquote-primary {
-  background: #8591d5;
+  background: #d1d6ef;
   border-left: 6px solid #3f51b5;
   padding: 1rem;
 }
@@ -11199,7 +11199,7 @@ section.landing {
 }
 
 .blockquote-secondary {
-  background: #ffd699;
+  background: #ffeacc;
   border-left: 6px solid #ff9800;
   padding: 1rem;
 }

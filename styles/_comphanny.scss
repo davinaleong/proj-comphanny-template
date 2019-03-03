@@ -1,11 +1,12 @@
 /// A: Colors
-$cphy-primary: map-get($theme-colors, "cphy-primary");
-$cphy-primary-light: lighten($cphy-primary, 20%);
+$cphy-primary: theme-color("cphy-primary");
 $cphy-primary-xlight: lighten($cphy-primary, 40%);
+$cphy-primary-light: lighten($cphy-primary, 20%);
 $cphy-primary-dark: darken($cphy-primary, 30%);
 
-$cphy-secondary: map-get($theme-colors, "cphy-secondary");
-$cphy-secondary-light: lighten($cphy-secondary, 30%);
+$cphy-secondary: theme-color("cphy-secondary");
+$cphy-secondary-xlight: lighten($cphy-secondary, 40%);
+$cphy-secondary-light: lighten($cphy-secondary, 20%);
 $cphy-secondary-dark: darken($cphy-secondary, 10%);
 
 $cphy-colors: (
@@ -101,7 +102,7 @@ section.landing {
 }
 
 .blockquote-primary {
-  background: $cphy-primary-light;
+  background: $cphy-primary-xlight;
   border-left: 6px solid $cphy-primary;
   padding: map-get($spacers, 3);
 }
@@ -111,7 +112,7 @@ section.landing {
 }
 
 .blockquote-secondary {
-  background: $cphy-secondary-light;
+  background: $cphy-secondary-xlight;
   border-left: 6px solid $cphy-secondary;
   padding: map-get($spacers, 3);
 }

@@ -25,4 +25,6 @@ $headings-font-family: $font-family-headings;
 
 $enable-rounded: false;
 
+$hr-border-color: lighten(theme-color("cphy-primary"), 40%);
+
 @import "../node_modules/bootstrap/scss/bootstrap";
