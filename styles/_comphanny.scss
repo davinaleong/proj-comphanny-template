@@ -79,10 +79,6 @@ $cphy-colors: (
 
 
 /// C. Containers & Blocks
-// section:not(:first-child), .section:not(:first-child) {
-//   min-height: 100vh;
-// }
-
 section.landing {
   background-color: $cphy-primary;
 }
@@ -95,7 +91,7 @@ section.landing {
 .landing-content-container {
   background-color: $white;
   border-radius: 20% 5% 40% 0;
-  height: 80vh;
+  height: 90vh;
 }
 
 .products {
@@ -107,9 +103,9 @@ section.landing {
 }
 
 /// Z. Loose Elements
-.fab {
+.btn-floating-action {
   position: fixed;
-  right: 16px;
+  left: 16px;
   bottom: 16px;
   color: $light;
 }
@@ -146,4 +142,9 @@ section.landing {
 
 .contact {
   max-width: 800px;
+}
+
+// Hides the github bottom-right fab
+.github-fab {
+  display: hidden;
 }
