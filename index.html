@@ -72,7 +72,7 @@
       </div>
     </section>
 
-    <section class="products py-5" itemscope itemtype="http://schema.org/Product">
+    <section class="products py-5" itemscope itemtype="http://schema.org/ItemList">
       <div class="container">
         <div class="mb-5 d-flex justify-content-center align-items-center">
           <h2 class="section-heading-light"><i class="fal fa-pencil-ruler"></i> The work</h2>
@@ -80,57 +80,61 @@
 
         <div class="row">
           <div class="col-12 col-lg-6">
-            <div class="card mb-3 shadow-sm">
-              <a itemprop="url" href="./product-item.html">
-                <img src="./images/websites.jpg" class="card-img-top" alt="...">
+            <div class="card mb-3 shadow-sm" itemprop="itemListElement"
+              itemscope itemtype="http://schema.org/Product">
+              <a href="./product-item.html">
+                <img src="./images/websites.jpg" class="card-img-top" alt="placeholder" itemprop="image">
               </a>
               <div class="card-body">
-                <h5 class="card-title text-dark"><i class="far fa-browser"></i> Websites</h5>
+                <h5 class="card-title text-dark" itemprop="category"><i class="far fa-browser"></i> Websites</h5>
 
-                <h6><a itemprop="url" href="./product-list.html">Featured Website</a></h6>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptas quo exercitationem accusantium velit fugit esse enim harum&hellip;</p>
+                <h6><a href="./product-list.html" itemprop="name">Featured Website</a></h6>
+                <p class="card-text" itemprop="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptas quo exercitationem accusantium velit fugit esse enim harum&hellip;</p>
                 <a itemprop="url" href="./product-list.html" class="btn btn-primary btn-sm mt-3">View more <i class="fal fa-arrow-right"></i></a>
               </div>
             </div>
           </div>
           <div class="col-12 col-lg-6">
-            <div class="card mb-3 shadow-sm">
-              <a itemprop="url" href="./product-item.html">
-                <img src="./images/web-apps.jpg" class="card-img-top" alt="...">
+            <div class="card mb-3 shadow-sm" itemprop="itemListElement"
+              itemscope itemtype="http://schema.org/Product">
+              <a href="./product-item.html">
+                <img src="./images/web-apps.jpg" class="card-img-top" alt="placeholder" itemprop="image">
               </a>
               <div class="card-body">
-                <h5 class="card-title text-dark"><i class="far fa-globe"></i> Web Apps</h5>
+                <h5 class="card-title text-dark" itemprop="category"><i class="far fa-globe"></i> Web Apps</h5>
 
-                <h6><a itemprop="url" href="./product-item.html">Featured Web App</a></h6>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptas quo exercitationem accusantium velit fugit esse enim harum&hellip;</p>
+                <h6><a href="./product-item.html" itemprop="name">Featured Web App</a></h6>
+                <p class="card-text" itemprop="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptas quo exercitationem accusantium velit fugit esse enim harum&hellip;</p>
                 <a itemprop="url" href="./product-list.html" class="btn btn-primary btn-sm mt-3">View more <i class="fal fa-arrow-right"></i></a>
               </div>
             </div>
           </div>
           <div class="col-12 col-lg-6">
-            <div class="card mb-3 shadow-sm">
-              <a itemprop="url" href="./product-item.html">
-                <img src="./images/mobile-apps.jpg" class="card-img-top" alt="...">
+            <div class="card mb-3 shadow-sm" itemprop="itemListElement"
+              itemscope itemtype="http://schema.org/Product">
+              <a href="./product-item.html">
+                <img src="./images/mobile-apps.jpg" class="card-img-top" alt="placeholder" itemprop="image">
               </a>
               <div class="card-body">
-                <h5 class="card-title text-dark"><i class="far fa-mobile"></i> Mobile Apps</h5>
+                <h5 class="card-title text-dark" itemprop="category"><i class="far fa-mobile"></i> Mobile Apps</h5>
 
-                <h6><a itemprop="url" href="./product-item.html">Featured Mobile App</a></h6>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptas quo exercitationem accusantium velit fugit esse enim harum&hellip;</p>
+                <h6><a href="./product-item.html" itemprop="url">Featured Mobile App</a></h6>
+                <p class="card-text" itemprop="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptas quo exercitationem accusantium velit fugit esse enim harum&hellip;</p>
                 <a itemprop="url" href="./product-list.html" class="btn btn-primary btn-sm mt-3">View more <i class="fal fa-arrow-right"></i></a>
               </div>
             </div>
           </div>
           <div class="col-12 col-lg-6">
-            <div class="card mb-3 shadow-sm">
-              <a itemprop="url" href="./product-item.html">
-                <img src="./images/web-services.jpg" class="card-img-top" alt="...">
+            <div class="card mb-3 shadow-sm" itemprop="itemListElement"
+              itemscope itemtype="http://schema.org/Product">
+              <a href="./product-item.html">
+                <img src="./images/web-services.jpg" class="card-img-top" alt="placeholder" itemprop="image">
               </a>
               <div class="card-body">
                 <h5 class="card-title text-dark"><i class="far fa-cloud"></i> Web Services</h5>
 
-                <h6><a itemprop="url" href="./product-item.html">Featured Web Service</a></h6>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptas quo exercitationem accusantium velit fugit esse enim harum&hellip;</p>
+                <h6><a href="./product-item.html" itemprop="url">Featured Web Service</a></h6>
+                <p class="card-text" itemprop="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptas quo exercitationem accusantium velit fugit esse enim harum&hellip;</p>
                 <a itemprop="url" href="./product-list.html" class="btn btn-primary btn-sm mt-3">View more <i class="fal fa-arrow-right"></i></a>
               </div>
             </div>
