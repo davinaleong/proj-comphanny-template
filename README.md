@@ -1,6 +1,6 @@
 # Comphanny Template `v1.1.0`
 
-View template [here](https://davinaleong.github.io/proj-comphaanyy-template/)!
+View template [here](https://davinaleong.github.io/proj-comphanny-template/)!
 
 Repo of CraftCMS project [here](https://github.com/DavinaLeong/proj-comphanny-cms.git).
 
